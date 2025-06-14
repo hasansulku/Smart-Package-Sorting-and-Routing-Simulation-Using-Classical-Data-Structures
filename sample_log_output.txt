@@ -1,0 +1,172 @@
+Starting ParcelSortX Simulation
+Configuration loaded: 300 ticks, 5 cities
+
+[Tick 13]
+New Parcels: P023 to Istanbul (Priority 2), P024 to Izmir (Priority 1)
+Queue Size: 3
+Sorted to BST: P023, P024
+Dispatched: P020 from BST to Ankara -> Success
+Returned: P018 misrouted -> Pushed to ReturnStack
+Active Terminal: Ankara
+ReturnStack Size: 1
+BST Status: Istanbul: 5, Ankara: 2, Izmir: 3, Bursa: 1, Antalya: 0
+
+[Tick 14]
+New Parcels: P025 to Bursa (Priority 3)
+Queue Size: 1
+Sorted to BST: P025
+Dispatched: P021 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 1
+BST Status: Istanbul: 5, Ankara: 1, Izmir: 3, Bursa: 2, Antalya: 0
+
+[Tick 15]
+New Parcels: P026 to Antalya (Priority 1), P027 to Istanbul (Priority 3)
+Queue Size: 2
+Sorted to BST: P026, P027
+Dispatched: P022 from BST to Ankara -> Success
+Rotated to: Izmir
+Active Terminal: Izmir
+ReturnStack Size: 1
+BST Status: Istanbul: 6, Ankara: 0, Izmir: 3, Bursa: 2, Antalya: 1
+
+[Tick 16]
+New Parcels: P028 to Izmir (Priority 2), P029 to Bursa (Priority 1), P030 to Ankara (Priority 2)
+Queue Size: 3
+Sorted to BST: P028, P029, P030
+Dispatched: P024 from BST to Izmir -> Success
+Reprocessed: P018 from ReturnStack to BST
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 6, Ankara: 1, Izmir: 3, Bursa: 3, Antalya: 1
+
+[Tick 17]
+New Parcels: P031 to Antalya (Priority 3)
+Queue Size: 1
+Sorted to BST: P031
+Dispatched: P028 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 6, Ankara: 1, Izmir: 2, Bursa: 3, Antalya: 2
+
+[Tick 18]
+New Parcels: P032 to Istanbul (Priority 1), P033 to Izmir (Priority 2)
+Queue Size: 2
+Sorted to BST: P032, P033
+Dispatched: P033 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 7, Ankara: 1, Izmir: 1, Bursa: 3, Antalya: 2
+
+[Tick 19]
+New Parcels: P034 to Bursa (Priority 2)
+Queue Size: 1
+Sorted to BST: P034
+Dispatched: P018 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 7, Ankara: 1, Izmir: 0, Bursa: 4, Antalya: 2
+
+[Tick 20]
+New Parcels: P035 to Ankara (Priority 3), P036 to Antalya (Priority 1)
+Queue Size: 2
+Sorted to BST: P035, P036
+Dispatched: P036 from BST to Izmir -> Success
+Rotated to: Bursa
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 7, Ankara: 2, Izmir: 0, Bursa: 4, Antalya: 2
+
+[Tick 21]
+New Parcels: P037 to Istanbul (Priority 2), P038 to Bursa (Priority 3), P039 to Izmir (Priority 1)
+Queue Size: 3
+Sorted to BST: P037, P038, P039
+Dispatched: P025 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 8, Ankara: 2, Izmir: 1, Bursa: 4, Antalya: 2
+
+[Tick 22]
+New Parcels: P040 to Antalya (Priority 2)
+Queue Size: 1
+Sorted to BST: P040
+Dispatched: P029 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 8, Ankara: 2, Izmir: 1, Bursa: 3, Antalya: 3
+
+[Tick 23]
+New Parcels: P041 to Bursa (Priority 1), P042 to Ankara (Priority 2)
+Queue Size: 2
+Sorted to BST: P041, P042
+Dispatched: P034 from BST to Bursa -> Success
+Reprocessed: P041 from ReturnStack to BST
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 8, Ankara: 3, Izmir: 1, Bursa: 3, Antalya: 3
+
+[Tick 24]
+New Parcels: P043 to Istanbul (Priority 3), P044 to Izmir (Priority 2)
+Queue Size: 2
+Sorted to BST: P043, P044
+Dispatched: P038 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 9, Ankara: 3, Izmir: 2, Bursa: 2, Antalya: 3
+
+[Tick 25]
+New Parcels: P045 to Antalya (Priority 1), P046 to Bursa (Priority 2), P047 to Ankara (Priority 3)
+Queue Size: 3
+Sorted to BST: P045, P046, P047
+Dispatched: P041 from BST to Bursa -> Success
+Rotated to: Antalya
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 9, Ankara: 4, Izmir: 2, Bursa: 2, Antalya: 4
+
+[Tick 26]
+New Parcels: P048 to Istanbul (Priority 2)
+Queue Size: 1
+Sorted to BST: P048
+Dispatched: P026 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 10, Ankara: 4, Izmir: 2, Bursa: 2, Antalya: 3
+
+[Tick 27]
+New Parcels: P049 to Bursa (Priority 1), P050 to Antalya (Priority 3)
+Queue Size: 2
+Sorted to BST: P049, P050
+Dispatched: P031 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 10, Ankara: 4, Izmir: 2, Bursa: 3, Antalya: 3
+
+[Tick 28]
+New Parcels: P051 to Izmir (Priority 2), P052 to Ankara (Priority 1)
+Queue Size: 2
+Sorted to BST: P051, P052
+Dispatched: P045 from BST to Antalya -> Success
+Reprocessed: P050 from ReturnStack to BST
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 10, Ankara: 5, Izmir: 3, Bursa: 3, Antalya: 3
+
+[Tick 29]
+New Parcels: P053 to Istanbul (Priority 3)
+Queue Size: 1
+Sorted to BST: P053
+Dispatched: P050 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 11, Ankara: 5, Izmir: 3, Bursa: 3, Antalya: 2
+
+[Tick 30]
+New Parcels: P054 to Bursa (Priority 2), P055 to Antalya (Priority 1)
+Queue Size: 2
+Sorted to BST: P054, P055
+Dispatched: P055 from BST to Antalya -> Success
+Rotated to: Istanbul
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 11, Ankara: 5, Izmir: 3, Bursa: 4, Antalya: 1 

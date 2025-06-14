@@ -1,0 +1,3213 @@
+Starting ParcelSortX Simulation
+Configuration loaded: 300 ticks, 5 cities
+Queue Capacity: 30
+[1]
+New Parcels: P0001 to Izmir (Priority 1)
+Queue Size: 1/30
+Sorted to BST: P0001
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 0, Izmir: 1, Bursa: 0, Antalya: 0
+
+[2]
+New Parcels: P0002 to Bursa (Priority 1), P0003 to Antalya (Priority 3), P0004 to Bursa (Priority 3)
+Queue Size: 3/30
+Sorted to BST: P0002
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 0, Izmir: 1, Bursa: 1, Antalya: 0
+
+[3]
+New Parcels: P0005 to Izmir (Priority 2), P0006 to Istanbul (Priority 2), P0007 to Izmir (Priority 2)
+Queue Size: 5/30
+Sorted to BST: P0003
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 0, Izmir: 1, Bursa: 1, Antalya: 1
+
+[4]
+New Parcels: P0008 to Ankara (Priority 3), P0009 to Antalya (Priority 1)
+Queue Size: 6/30
+Sorted to BST: P0004
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 0, Izmir: 1, Bursa: 2, Antalya: 1
+
+[5]
+New Parcels: P0010 to Bursa (Priority 1), P0011 to Istanbul (Priority 3), P0012 to Ankara (Priority 2)
+Queue Size: 8/30
+Sorted to BST: P0005
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 0, Izmir: 2, Bursa: 2, Antalya: 1
+
+[6]
+New Parcels: P0013 to Ankara (Priority 3), P0014 to Bursa (Priority 2), P0015 to Ankara (Priority 2)
+Queue Size: 10/30
+Sorted to BST: P0006
+Rotated to: Ankara
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 0, Izmir: 2, Bursa: 2, Antalya: 1
+
+[7]
+New Parcels: P0016 to Izmir (Priority 1), P0017 to Istanbul (Priority 3), P0018 to Istanbul (Priority 2)
+Queue Size: 12/30
+Sorted to BST: P0007
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 0, Izmir: 3, Bursa: 2, Antalya: 1
+
+[8]
+New Parcels: P0019 to Istanbul (Priority 1), P0020 to Izmir (Priority 3)
+Queue Size: 13/30
+Sorted to BST: P0008
+Dispatched: P0008 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 0, Izmir: 3, Bursa: 2, Antalya: 1
+
+[9]
+New Parcels: P0021 to Istanbul (Priority 1), P0022 to Bursa (Priority 2), P0023 to Antalya (Priority 1)
+Queue Size: 15/30
+Sorted to BST: P0009
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 0, Izmir: 3, Bursa: 2, Antalya: 2
+
+[10]
+New Parcels: P0024 to Istanbul (Priority 1)
+Queue Size: 15/30
+Sorted to BST: P0010
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 0, Izmir: 3, Bursa: 3, Antalya: 2
+
+[11]
+New Parcels: P0025 to Antalya (Priority 3)
+Queue Size: 15/30
+Sorted to BST: P0011
+Rotated to: Izmir
+Dispatched: P0001 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 0, Izmir: 2, Bursa: 3, Antalya: 2
+
+[12]
+New Parcels: P0026 to Izmir (Priority 1)
+Queue Size: 15/30
+Sorted to BST: P0012
+Returned: P0005 misrouted -> Pushed to ReturnStack
+Active Terminal: Izmir
+ReturnStack Size: 1
+BST Status: Istanbul: 2, Ankara: 1, Izmir: 1, Bursa: 3, Antalya: 2
+
+[13]
+New Parcels: P0027 to Bursa (Priority 1)
+Queue Size: 15/30
+Reprocessed: P0005 from ReturnStack to BST
+Returned: P0007 misrouted -> Pushed to ReturnStack
+Active Terminal: Izmir
+ReturnStack Size: 1
+BST Status: Istanbul: 2, Ankara: 1, Izmir: 1, Bursa: 3, Antalya: 2
+
+[14]
+New Parcels: P0028 to Ankara (Priority 3), P0029 to Istanbul (Priority 3), P0030 to Antalya (Priority 3)
+Queue Size: 18/30
+Reprocessed: P0007 from ReturnStack to BST
+Dispatched: P0005 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 1, Izmir: 1, Bursa: 3, Antalya: 2
+
+[15]
+New Parcels: P0031 to Bursa (Priority 1)
+Queue Size: 19/30
+Sorted to BST: P0013
+Dispatched: P0007 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 2, Izmir: 0, Bursa: 3, Antalya: 2
+
+[16]
+New Parcels: P0032 to Ankara (Priority 3), P0033 to Ankara (Priority 1)
+Queue Size: 20/30
+Sorted to BST: P0014
+Rotated to: Bursa
+Dispatched: P0002 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 2, Izmir: 0, Bursa: 3, Antalya: 2
+
+[17]
+New Parcels: P0034 to Istanbul (Priority 2), P0035 to Antalya (Priority 2), P0036 to Bursa (Priority 1)
+Queue Size: 22/30
+Sorted to BST: P0015
+Dispatched: P0004 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 3, Izmir: 0, Bursa: 2, Antalya: 2
+
+[18]
+New Parcels: P0037 to Ankara (Priority 3), P0038 to Ankara (Priority 1), P0039 to Izmir (Priority 2)
+Queue Size: 24/30
+Sorted to BST: P0016
+Returned: P0010 misrouted -> Pushed to ReturnStack
+Active Terminal: Bursa
+ReturnStack Size: 1
+BST Status: Istanbul: 2, Ankara: 3, Izmir: 1, Bursa: 1, Antalya: 2
+
+[19]
+New Parcels: P0040 to Ankara (Priority 2)
+Queue Size: 24/30
+Reprocessed: P0010 from ReturnStack to BST
+Dispatched: P0014 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 3, Izmir: 1, Bursa: 1, Antalya: 2
+
+[20]
+New Parcels: P0041 to Ankara (Priority 1), P0042 to Istanbul (Priority 2), P0043 to Antalya (Priority 2)
+Queue Size: 27/30
+Sorted to BST: P0017
+Dispatched: P0010 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 3, Izmir: 1, Bursa: 0, Antalya: 2
+
+[21]
+New Parcels: P0044 to Ankara (Priority 1), P0045 to Izmir (Priority 1)
+Queue Size: 28/30
+Sorted to BST: P0018
+Rotated to: Antalya
+Dispatched: P0003 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 3, Izmir: 1, Bursa: 0, Antalya: 1
+
+[22]
+New Parcels: P0046 to Antalya (Priority 2)
+Queue Size: 28/30
+Sorted to BST: P0019
+Dispatched: P0009 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 3, Izmir: 1, Bursa: 0, Antalya: 0
+
+[23]
+New Parcels: P0047 to Antalya (Priority 3), P0048 to Ankara (Priority 2)
+Queue Size: 29/30
+Sorted to BST: P0020
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 3, Izmir: 2, Bursa: 0, Antalya: 0
+
+[24]
+New Parcels: P0049 to Izmir (Priority 3), P0050 to Izmir (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0021
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 6, Ankara: 3, Izmir: 2, Bursa: 0, Antalya: 0
+
+[25]
+WARNING: Queue overflow - discarding parcel P0052 to Istanbul
+WARNING: Queue overflow - discarding parcel P0052 to Istanbul
+New Parcels: P0051 to Izmir (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0022
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 6, Ankara: 3, Izmir: 2, Bursa: 1, Antalya: 0
+
+[26]
+WARNING: Queue overflow - discarding parcel P0053 to Antalya
+New Parcels: P0052 to Istanbul (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0023
+Rotated to: Istanbul
+Dispatched: P0006 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 3, Izmir: 2, Bursa: 1, Antalya: 1
+
+[27]
+WARNING: Queue overflow - discarding parcel P0054 to Izmir
+New Parcels: P0053 to Bursa (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0024
+Dispatched: P0011 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 3, Izmir: 2, Bursa: 1, Antalya: 1
+
+[28]
+New Parcels: P0054 to Bursa (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0025
+Dispatched: P0017 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 3, Izmir: 2, Bursa: 1, Antalya: 2
+
+[29]
+New Parcels: P0055 to Istanbul (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0026
+Returned: P0018 misrouted -> Pushed to ReturnStack
+Active Terminal: Istanbul
+ReturnStack Size: 1
+BST Status: Istanbul: 3, Ankara: 3, Izmir: 3, Bursa: 1, Antalya: 2
+
+[30]
+WARNING: Queue overflow - discarding parcel P0057 to Antalya
+WARNING: Queue overflow - discarding parcel P0057 to Bursa
+New Parcels: P0056 to Bursa (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Reprocessed: P0018 from ReturnStack to BST
+Dispatched: P0019 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 3, Izmir: 3, Bursa: 1, Antalya: 2
+
+[31]
+WARNING: Queue overflow - discarding parcel P0057 to Antalya
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0027
+Rotated to: Ankara
+Dispatched: P0012 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 2, Izmir: 3, Bursa: 2, Antalya: 2
+
+[32]
+New Parcels: P0057 to Izmir (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0028
+Dispatched: P0013 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 2, Izmir: 3, Bursa: 2, Antalya: 2
+
+[33]
+New Parcels: P0058 to Bursa (Priority 2)
+Queue Size: 30/30
+Sorted to BST: P0029
+Dispatched: P0015 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 1, Izmir: 3, Bursa: 2, Antalya: 2
+
+[34]
+WARNING: Queue overflow - discarding parcel P0060 to Bursa
+WARNING: Queue overflow - discarding parcel P0060 to Izmir
+New Parcels: P0059 to Istanbul (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0030
+Dispatched: P0028 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 0, Izmir: 3, Bursa: 2, Antalya: 3
+
+[35]
+New Parcels: P0060 to Izmir (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0031
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 0, Izmir: 3, Bursa: 3, Antalya: 3
+
+[36]
+WARNING: Queue overflow - discarding parcel P0062 to Antalya
+New Parcels: P0061 to Ankara (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0032
+Rotated to: Izmir
+Dispatched: P0016 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 1, Izmir: 2, Bursa: 3, Antalya: 3
+
+[37]
+WARNING: Queue overflow - discarding parcel P0063 to Antalya
+New Parcels: P0062 to Bursa (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0033
+Dispatched: P0020 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 2, Izmir: 1, Bursa: 3, Antalya: 3
+
+[38]
+WARNING: Queue overflow - discarding parcel P0064 to Izmir
+New Parcels: P0063 to Istanbul (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0034
+Dispatched: P0026 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 2, Izmir: 0, Bursa: 3, Antalya: 3
+
+[39]
+New Parcels: P0064 to Istanbul (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0035
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 2, Izmir: 0, Bursa: 3, Antalya: 4
+
+[40]
+WARNING: Queue overflow - discarding parcel P0066 to Bursa
+WARNING: Queue overflow - discarding parcel P0066 to Ankara
+New Parcels: P0065 to Izmir (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0036
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 2, Izmir: 0, Bursa: 4, Antalya: 4
+
+[41]
+New Parcels: P0066 to Bursa (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0037
+Rotated to: Bursa
+Dispatched: P0022 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 3, Izmir: 0, Bursa: 3, Antalya: 4
+
+[42]
+New Parcels: P0067 to Istanbul (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0038
+Dispatched: P0027 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 4, Izmir: 0, Bursa: 2, Antalya: 4
+
+[43]
+WARNING: Queue overflow - discarding parcel P0069 to Bursa
+WARNING: Queue overflow - discarding parcel P0069 to Izmir
+New Parcels: P0068 to Istanbul (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0039
+Dispatched: P0031 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 4, Izmir: 1, Bursa: 1, Antalya: 4
+
+[44]
+WARNING: Queue overflow - discarding parcel P0070 to Bursa
+WARNING: Queue overflow - discarding parcel P0070 to Ankara
+New Parcels: P0069 to Bursa (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0040
+Returned: P0036 misrouted -> Pushed to ReturnStack
+Active Terminal: Bursa
+ReturnStack Size: 1
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 1, Bursa: 0, Antalya: 4
+
+[45]
+WARNING: Queue overflow - discarding parcel P0071 to Istanbul
+New Parcels: P0070 to Izmir (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Reprocessed: P0036 from ReturnStack to BST
+Dispatched: P0036 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 1, Bursa: 0, Antalya: 4
+
+[46]
+WARNING: Queue overflow - discarding parcel P0071 to Bursa
+WARNING: Queue overflow - discarding parcel P0071 to Bursa
+WARNING: Queue overflow - discarding parcel P0071 to Izmir
+Parcels discarded due to queue overflow: 3
+Queue Size: 30/30
+Sorted to BST: P0041
+Rotated to: Antalya
+Dispatched: P0023 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 6, Izmir: 1, Bursa: 0, Antalya: 3
+
+[47]
+New Parcels: P0071 to Bursa (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0042
+Dispatched: P0025 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 6, Ankara: 6, Izmir: 1, Bursa: 0, Antalya: 2
+
+[48]
+WARNING: Queue overflow - discarding parcel P0073 to Ankara
+New Parcels: P0072 to Ankara (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0043
+Dispatched: P0030 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 6, Ankara: 6, Izmir: 1, Bursa: 0, Antalya: 2
+
+[49]
+WARNING: Queue overflow - discarding parcel P0074 to Izmir
+New Parcels: P0073 to Ankara (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0044
+Dispatched: P0035 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 6, Ankara: 7, Izmir: 1, Bursa: 0, Antalya: 1
+
+[50]
+WARNING: Queue overflow - discarding parcel P0075 to Ankara
+WARNING: Queue overflow - discarding parcel P0075 to Izmir
+New Parcels: P0074 to Istanbul (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0045
+Dispatched: P0043 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 6, Ankara: 7, Izmir: 2, Bursa: 0, Antalya: 0
+
+[51]
+WARNING: Queue overflow - discarding parcel P0076 to Antalya
+WARNING: Queue overflow - discarding parcel P0076 to Bursa
+New Parcels: P0075 to Antalya (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0046
+Rotated to: Istanbul
+Dispatched: P0021 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 7, Izmir: 2, Bursa: 0, Antalya: 1
+
+[52]
+WARNING: Queue overflow - discarding parcel P0077 to Bursa
+New Parcels: P0076 to Antalya (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0047
+Dispatched: P0024 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 7, Izmir: 2, Bursa: 0, Antalya: 2
+
+[53]
+New Parcels: P0077 to Ankara (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0048
+Dispatched: P0018 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 8, Izmir: 2, Bursa: 0, Antalya: 2
+
+[54]
+New Parcels: P0078 to Ankara (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0049
+Dispatched: P0029 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 8, Izmir: 3, Bursa: 0, Antalya: 2
+
+[55]
+WARNING: Queue overflow - discarding parcel P0080 to Istanbul
+New Parcels: P0079 to Istanbul (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0050
+Dispatched: P0034 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 8, Izmir: 4, Bursa: 0, Antalya: 2
+
+[56]
+New Parcels: P0080 to Izmir (Priority 2)
+Queue Size: 30/30
+Sorted to BST: P0051
+Rotated to: Ankara
+Dispatched: P0032 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 7, Izmir: 5, Bursa: 0, Antalya: 2
+
+[57]
+WARNING: Queue overflow - discarding parcel P0082 to Izmir
+New Parcels: P0081 to Antalya (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0052
+Dispatched: P0033 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 6, Izmir: 5, Bursa: 0, Antalya: 2
+
+[58]
+WARNING: Queue overflow - discarding parcel P0083 to Antalya
+WARNING: Queue overflow - discarding parcel P0083 to Istanbul
+New Parcels: P0082 to Ankara (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0053
+Dispatched: P0037 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 5, Izmir: 5, Bursa: 1, Antalya: 2
+
+[59]
+WARNING: Queue overflow - discarding parcel P0084 to Istanbul
+New Parcels: P0083 to Izmir (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0054
+Dispatched: P0038 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 4, Izmir: 5, Bursa: 2, Antalya: 2
+
+[60]
+WARNING: Queue overflow - discarding parcel P0085 to Bursa
+New Parcels: P0084 to Istanbul (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0055
+Dispatched: P0040 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 3, Izmir: 5, Bursa: 2, Antalya: 2
+
+[61]
+WARNING: Queue overflow - discarding parcel P0086 to Istanbul
+WARNING: Queue overflow - discarding parcel P0086 to Izmir
+New Parcels: P0085 to Bursa (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0056
+Rotated to: Izmir
+Dispatched: P0039 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 3, Izmir: 4, Bursa: 3, Antalya: 2
+
+[62]
+WARNING: Queue overflow - discarding parcel P0087 to Bursa
+WARNING: Queue overflow - discarding parcel P0087 to Bursa
+New Parcels: P0086 to Istanbul (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0057
+Dispatched: P0045 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 3, Izmir: 4, Bursa: 3, Antalya: 2
+
+[63]
+WARNING: Queue overflow - discarding parcel P0088 to Istanbul
+WARNING: Queue overflow - discarding parcel P0088 to Istanbul
+New Parcels: P0087 to Antalya (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0058
+Dispatched: P0049 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 3, Izmir: 3, Bursa: 4, Antalya: 2
+
+[64]
+New Parcels: P0088 to Istanbul (Priority 2)
+Queue Size: 30/30
+Sorted to BST: P0059
+Dispatched: P0050 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 3, Izmir: 2, Bursa: 4, Antalya: 2
+
+[65]
+WARNING: Queue overflow - discarding parcel P0090 to Istanbul
+New Parcels: P0089 to Istanbul (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0060
+Dispatched: P0051 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 3, Izmir: 2, Bursa: 4, Antalya: 2
+
+[66]
+WARNING: Queue overflow - discarding parcel P0091 to Istanbul
+WARNING: Queue overflow - discarding parcel P0091 to Istanbul
+New Parcels: P0090 to Antalya (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0061
+Rotated to: Bursa
+Dispatched: P0053 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 4, Izmir: 2, Bursa: 3, Antalya: 2
+
+[67]
+WARNING: Queue overflow - discarding parcel P0092 to Ankara
+New Parcels: P0091 to Antalya (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0062
+Dispatched: P0054 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 4, Izmir: 2, Bursa: 3, Antalya: 2
+
+[68]
+New Parcels: P0092 to Istanbul (Priority 2)
+Queue Size: 30/30
+Sorted to BST: P0063
+Dispatched: P0056 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 4, Izmir: 2, Bursa: 2, Antalya: 2
+
+[69]
+WARNING: Queue overflow - discarding parcel P0094 to Istanbul
+New Parcels: P0093 to Bursa (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0064
+Returned: P0058 misrouted -> Pushed to ReturnStack
+Active Terminal: Bursa
+ReturnStack Size: 1
+BST Status: Istanbul: 6, Ankara: 4, Izmir: 2, Bursa: 1, Antalya: 2
+
+[70]
+WARNING: Queue overflow - discarding parcel P0095 to Istanbul
+New Parcels: P0094 to Ankara (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Reprocessed: P0058 from ReturnStack to BST
+Dispatched: P0062 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 6, Ankara: 4, Izmir: 2, Bursa: 1, Antalya: 2
+
+[71]
+WARNING: Queue overflow - discarding parcel P0095 to Ankara
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0065
+Rotated to: Antalya
+Dispatched: P0046 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 6, Ankara: 4, Izmir: 3, Bursa: 1, Antalya: 1
+
+[72]
+WARNING: Queue overflow - discarding parcel P0096 to Istanbul
+New Parcels: P0095 to Bursa (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0066
+Dispatched: P0047 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 6, Ankara: 4, Izmir: 3, Bursa: 2, Antalya: 0
+
+[73]
+New Parcels: P0096 to Ankara (Priority 2)
+Queue Size: 30/30
+Sorted to BST: P0067
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 7, Ankara: 4, Izmir: 3, Bursa: 2, Antalya: 0
+
+[74]
+WARNING: Queue overflow - discarding parcel P0098 to Istanbul
+New Parcels: P0097 to Bursa (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0068
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 8, Ankara: 4, Izmir: 3, Bursa: 2, Antalya: 0
+
+[75]
+WARNING: Queue overflow - discarding parcel P0099 to Bursa
+WARNING: Queue overflow - discarding parcel P0099 to Izmir
+New Parcels: P0098 to Izmir (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0069
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 8, Ankara: 4, Izmir: 3, Bursa: 3, Antalya: 0
+
+[76]
+WARNING: Queue overflow - discarding parcel P0100 to Izmir
+WARNING: Queue overflow - discarding parcel P0100 to Istanbul
+New Parcels: P0099 to Bursa (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0070
+Rotated to: Istanbul
+Dispatched: P0042 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 7, Ankara: 4, Izmir: 4, Bursa: 3, Antalya: 0
+
+[77]
+WARNING: Queue overflow - discarding parcel P0101 to Ankara
+WARNING: Queue overflow - discarding parcel P0101 to Bursa
+New Parcels: P0100 to Izmir (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0071
+Dispatched: P0052 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 6, Ankara: 4, Izmir: 4, Bursa: 4, Antalya: 0
+
+[78]
+WARNING: Queue overflow - discarding parcel P0102 to Bursa
+New Parcels: P0101 to Antalya (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0072
+Dispatched: P0055 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 4, Bursa: 4, Antalya: 0
+
+[79]
+WARNING: Queue overflow - discarding parcel P0103 to Izmir
+New Parcels: P0102 to Bursa (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0073
+Dispatched: P0059 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 6, Izmir: 4, Bursa: 4, Antalya: 0
+
+[80]
+WARNING: Queue overflow - discarding parcel P0104 to Istanbul
+New Parcels: P0103 to Izmir (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0074
+Dispatched: P0063 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 6, Izmir: 4, Bursa: 4, Antalya: 0
+
+[81]
+New Parcels: P0104 to Izmir (Priority 2)
+Queue Size: 30/30
+Sorted to BST: P0075
+Rotated to: Ankara
+Dispatched: P0041 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 5, Izmir: 4, Bursa: 4, Antalya: 1
+
+[82]
+New Parcels: P0105 to Izmir (Priority 2)
+Queue Size: 30/30
+Sorted to BST: P0076
+Dispatched: P0044 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 4, Izmir: 4, Bursa: 4, Antalya: 2
+
+[83]
+WARNING: Queue overflow - discarding parcel P0107 to Bursa
+New Parcels: P0106 to Antalya (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0077
+Dispatched: P0048 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 4, Izmir: 4, Bursa: 4, Antalya: 2
+
+[84]
+New Parcels: P0107 to Bursa (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0078
+Returned: P0061 misrouted -> Pushed to ReturnStack
+Active Terminal: Ankara
+ReturnStack Size: 1
+BST Status: Istanbul: 4, Ankara: 4, Izmir: 4, Bursa: 4, Antalya: 2
+
+[85]
+New Parcels: P0108 to Ankara (Priority 1)
+Queue Size: 30/30
+Reprocessed: P0061 from ReturnStack to BST
+Returned: P0072 misrouted -> Pushed to ReturnStack
+Active Terminal: Ankara
+ReturnStack Size: 1
+BST Status: Istanbul: 4, Ankara: 4, Izmir: 4, Bursa: 4, Antalya: 2
+
+[86]
+WARNING: Queue overflow - discarding parcel P0109 to Izmir
+WARNING: Queue overflow - discarding parcel P0109 to Antalya
+WARNING: Queue overflow - discarding parcel P0109 to Bursa
+Parcels discarded due to queue overflow: 3
+Queue Size: 30/30
+Reprocessed: P0072 from ReturnStack to BST
+Rotated to: Izmir
+Dispatched: P0057 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 5, Izmir: 3, Bursa: 4, Antalya: 2
+
+[87]
+WARNING: Queue overflow - discarding parcel P0109 to Istanbul
+WARNING: Queue overflow - discarding parcel P0109 to Bursa
+WARNING: Queue overflow - discarding parcel P0109 to Istanbul
+Parcels discarded due to queue overflow: 3
+Queue Size: 30/30
+Sorted to BST: P0079
+Dispatched: P0060 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 2, Bursa: 4, Antalya: 2
+
+[88]
+WARNING: Queue overflow - discarding parcel P0110 to Ankara
+WARNING: Queue overflow - discarding parcel P0110 to Antalya
+New Parcels: P0109 to Antalya (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0080
+Returned: P0065 misrouted -> Pushed to ReturnStack
+Active Terminal: Izmir
+ReturnStack Size: 1
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 2, Bursa: 4, Antalya: 2
+
+[89]
+WARNING: Queue overflow - discarding parcel P0111 to Izmir
+New Parcels: P0110 to Istanbul (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Reprocessed: P0065 from ReturnStack to BST
+Dispatched: P0070 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 2, Bursa: 4, Antalya: 2
+
+[90]
+WARNING: Queue overflow - discarding parcel P0111 to Bursa
+WARNING: Queue overflow - discarding parcel P0111 to Bursa
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0081
+Dispatched: P0080 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 1, Bursa: 4, Antalya: 3
+
+[91]
+WARNING: Queue overflow - discarding parcel P0112 to Izmir
+WARNING: Queue overflow - discarding parcel P0112 to Ankara
+New Parcels: P0111 to Antalya (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0082
+Rotated to: Bursa
+Returned: P0058 misrouted -> Pushed to ReturnStack
+Active Terminal: Bursa
+ReturnStack Size: 1
+BST Status: Istanbul: 5, Ankara: 6, Izmir: 1, Bursa: 3, Antalya: 3
+
+[92]
+New Parcels: P0112 to Izmir (Priority 1)
+Queue Size: 30/30
+Reprocessed: P0058 from ReturnStack to BST
+Dispatched: P0066 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 6, Izmir: 1, Bursa: 3, Antalya: 3
+
+[93]
+WARNING: Queue overflow - discarding parcel P0113 to Antalya
+WARNING: Queue overflow - discarding parcel P0113 to Antalya
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0083
+Dispatched: P0069 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 6, Izmir: 2, Bursa: 2, Antalya: 3
+
+[94]
+WARNING: Queue overflow - discarding parcel P0114 to Bursa
+New Parcels: P0113 to Antalya (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0084
+Dispatched: P0071 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 6, Ankara: 6, Izmir: 2, Bursa: 1, Antalya: 3
+
+[95]
+WARNING: Queue overflow - discarding parcel P0115 to Istanbul
+New Parcels: P0114 to Izmir (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0085
+Dispatched: P0058 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 6, Ankara: 6, Izmir: 2, Bursa: 1, Antalya: 3
+
+[96]
+WARNING: Queue overflow - discarding parcel P0116 to Bursa
+New Parcels: P0115 to Istanbul (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0086
+Rotated to: Antalya
+Returned: P0075 misrouted -> Pushed to ReturnStack
+Active Terminal: Antalya
+ReturnStack Size: 1
+BST Status: Istanbul: 7, Ankara: 6, Izmir: 2, Bursa: 1, Antalya: 2
+
+[97]
+New Parcels: P0116 to Antalya (Priority 2)
+Queue Size: 30/30
+Reprocessed: P0075 from ReturnStack to BST
+Dispatched: P0076 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 7, Ankara: 6, Izmir: 2, Bursa: 1, Antalya: 2
+
+[98]
+WARNING: Queue overflow - discarding parcel P0117 to Izmir
+WARNING: Queue overflow - discarding parcel P0117 to Izmir
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0087
+Dispatched: P0081 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 7, Ankara: 6, Izmir: 2, Bursa: 1, Antalya: 2
+
+[99]
+New Parcels: P0117 to Izmir (Priority 2)
+Queue Size: 30/30
+Sorted to BST: P0088
+Dispatched: P0075 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 8, Ankara: 6, Izmir: 2, Bursa: 1, Antalya: 1
+
+[100]
+New Parcels: P0118 to Izmir (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0089
+Dispatched: P0087 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 9, Ankara: 6, Izmir: 2, Bursa: 1, Antalya: 0
+
+[101]
+WARNING: Queue overflow - discarding parcel P0120 to Bursa
+New Parcels: P0119 to Bursa (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0090
+Rotated to: Istanbul
+Dispatched: P0064 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 8, Ankara: 6, Izmir: 2, Bursa: 1, Antalya: 1
+
+[102]
+New Parcels: P0120 to Antalya (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0091
+Dispatched: P0067 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 7, Ankara: 6, Izmir: 2, Bursa: 1, Antalya: 2
+
+[103]
+WARNING: Queue overflow - discarding parcel P0122 to Antalya
+New Parcels: P0121 to Antalya (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0092
+Dispatched: P0068 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 7, Ankara: 6, Izmir: 2, Bursa: 1, Antalya: 2
+
+[104]
+New Parcels: P0122 to Izmir (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0093
+Dispatched: P0074 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 6, Ankara: 6, Izmir: 2, Bursa: 2, Antalya: 2
+
+[105]
+New Parcels: P0123 to Ankara (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0094
+Dispatched: P0079 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 7, Izmir: 2, Bursa: 2, Antalya: 2
+
+[106]
+WARNING: Queue overflow - discarding parcel P0125 to Izmir
+WARNING: Queue overflow - discarding parcel P0125 to Izmir
+New Parcels: P0124 to Ankara (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0095
+Rotated to: Ankara
+Dispatched: P0073 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 6, Izmir: 2, Bursa: 3, Antalya: 2
+
+[107]
+WARNING: Queue overflow - discarding parcel P0126 to Bursa
+New Parcels: P0125 to Ankara (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0096
+Dispatched: P0077 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 6, Izmir: 2, Bursa: 3, Antalya: 2
+
+[108]
+WARNING: Queue overflow - discarding parcel P0127 to Bursa
+New Parcels: P0126 to Bursa (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0097
+Dispatched: P0078 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 2, Bursa: 4, Antalya: 2
+
+[109]
+New Parcels: P0127 to Bursa (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0098
+Returned: P0061 misrouted -> Pushed to ReturnStack
+Active Terminal: Ankara
+ReturnStack Size: 1
+BST Status: Istanbul: 5, Ankara: 4, Izmir: 3, Bursa: 4, Antalya: 2
+
+[110]
+WARNING: Queue overflow - discarding parcel P0129 to Bursa
+New Parcels: P0128 to Istanbul (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Reprocessed: P0061 from ReturnStack to BST
+Returned: P0072 misrouted -> Pushed to ReturnStack
+Active Terminal: Ankara
+ReturnStack Size: 1
+BST Status: Istanbul: 5, Ankara: 4, Izmir: 3, Bursa: 4, Antalya: 2
+
+[111]
+WARNING: Queue overflow - discarding parcel P0129 to Bursa
+WARNING: Queue overflow - discarding parcel P0129 to Istanbul
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Reprocessed: P0072 from ReturnStack to BST
+Rotated to: Izmir
+Dispatched: P0065 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 2, Bursa: 4, Antalya: 2
+
+[112]
+WARNING: Queue overflow - discarding parcel P0129 to Bursa
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0099
+Dispatched: P0083 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 1, Bursa: 5, Antalya: 2
+
+[113]
+WARNING: Queue overflow - discarding parcel P0130 to Izmir
+New Parcels: P0129 to Bursa (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0100
+Dispatched: P0098 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 1, Bursa: 5, Antalya: 2
+
+[114]
+WARNING: Queue overflow - discarding parcel P0131 to Ankara
+New Parcels: P0130 to Izmir (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0101
+Dispatched: P0100 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 0, Bursa: 5, Antalya: 3
+
+[115]
+New Parcels: P0131 to Antalya (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0102
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 0, Bursa: 6, Antalya: 3
+
+[116]
+New Parcels: P0132 to Bursa (Priority 2)
+Queue Size: 30/30
+Sorted to BST: P0103
+Rotated to: Bursa
+Returned: P0085 misrouted -> Pushed to ReturnStack
+Active Terminal: Bursa
+ReturnStack Size: 1
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 1, Bursa: 5, Antalya: 3
+
+[117]
+WARNING: Queue overflow - discarding parcel P0134 to Ankara
+WARNING: Queue overflow - discarding parcel P0134 to Istanbul
+New Parcels: P0133 to Istanbul (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Reprocessed: P0085 from ReturnStack to BST
+Returned: P0093 misrouted -> Pushed to ReturnStack
+Active Terminal: Bursa
+ReturnStack Size: 1
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 1, Bursa: 5, Antalya: 3
+
+[118]
+WARNING: Queue overflow - discarding parcel P0134 to Bursa
+WARNING: Queue overflow - discarding parcel P0134 to Bursa
+WARNING: Queue overflow - discarding parcel P0134 to Antalya
+Parcels discarded due to queue overflow: 3
+Queue Size: 30/30
+Reprocessed: P0093 from ReturnStack to BST
+Returned: P0095 misrouted -> Pushed to ReturnStack
+Active Terminal: Bursa
+ReturnStack Size: 1
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 1, Bursa: 5, Antalya: 3
+
+[119]
+WARNING: Queue overflow - discarding parcel P0134 to Istanbul
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Reprocessed: P0095 from ReturnStack to BST
+Dispatched: P0097 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 1, Bursa: 5, Antalya: 3
+
+[120]
+WARNING: Queue overflow - discarding parcel P0134 to Bursa
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0104
+Returned: P0099 misrouted -> Pushed to ReturnStack
+Active Terminal: Bursa
+ReturnStack Size: 1
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 2, Bursa: 4, Antalya: 3
+
+[121]
+New Parcels: P0134 to Bursa (Priority 1)
+Queue Size: 30/30
+Reprocessed: P0099 from ReturnStack to BST
+Rotated to: Antalya
+Dispatched: P0090 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 2, Bursa: 5, Antalya: 2
+
+[122]
+WARNING: Queue overflow - discarding parcel P0135 to Istanbul
+WARNING: Queue overflow - discarding parcel P0135 to Izmir
+WARNING: Queue overflow - discarding parcel P0135 to Antalya
+Parcels discarded due to queue overflow: 3
+Queue Size: 30/30
+Sorted to BST: P0105
+Dispatched: P0091 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 3, Bursa: 5, Antalya: 1
+
+[123]
+New Parcels: P0135 to Izmir (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0106
+Dispatched: P0101 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 3, Bursa: 5, Antalya: 1
+
+[124]
+New Parcels: P0136 to Ankara (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0107
+Dispatched: P0106 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 3, Bursa: 6, Antalya: 0
+
+[125]
+WARNING: Queue overflow - discarding parcel P0138 to Bursa
+WARNING: Queue overflow - discarding parcel P0138 to Ankara
+New Parcels: P0137 to Ankara (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0108
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 6, Izmir: 3, Bursa: 6, Antalya: 0
+
+[126]
+New Parcels: P0138 to Izmir (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0109
+Rotated to: Istanbul
+Dispatched: P0084 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 6, Izmir: 3, Bursa: 6, Antalya: 1
+
+[127]
+WARNING: Queue overflow - discarding parcel P0140 to Istanbul
+New Parcels: P0139 to Ankara (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0110
+Dispatched: P0086 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 6, Izmir: 3, Bursa: 6, Antalya: 1
+
+[128]
+New Parcels: P0140 to Antalya (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0111
+Dispatched: P0088 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 6, Izmir: 3, Bursa: 6, Antalya: 2
+
+[129]
+WARNING: Queue overflow - discarding parcel P0142 to Bursa
+New Parcels: P0141 to Izmir (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0112
+Dispatched: P0089 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 6, Izmir: 4, Bursa: 6, Antalya: 2
+
+[130]
+WARNING: Queue overflow - discarding parcel P0143 to Ankara
+WARNING: Queue overflow - discarding parcel P0143 to Izmir
+New Parcels: P0142 to Izmir (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0113
+Dispatched: P0092 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 6, Izmir: 4, Bursa: 6, Antalya: 3
+
+[131]
+WARNING: Queue overflow - discarding parcel P0144 to Antalya
+WARNING: Queue overflow - discarding parcel P0144 to Ankara
+New Parcels: P0143 to Bursa (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0114
+Rotated to: Ankara
+Dispatched: P0082 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 5, Izmir: 5, Bursa: 6, Antalya: 3
+
+[132]
+WARNING: Queue overflow - discarding parcel P0145 to Istanbul
+WARNING: Queue overflow - discarding parcel P0145 to Antalya
+New Parcels: P0144 to Izmir (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0115
+Dispatched: P0094 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 4, Izmir: 5, Bursa: 6, Antalya: 3
+
+[133]
+WARNING: Queue overflow - discarding parcel P0146 to Bursa
+New Parcels: P0145 to Bursa (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0116
+Dispatched: P0096 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 3, Izmir: 5, Bursa: 6, Antalya: 4
+
+[134]
+New Parcels: P0146 to Ankara (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0117
+Dispatched: P0061 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 2, Izmir: 6, Bursa: 6, Antalya: 4
+
+[135]
+New Parcels: P0147 to Antalya (Priority 2)
+Queue Size: 30/30
+Sorted to BST: P0118
+Dispatched: P0072 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 1, Izmir: 7, Bursa: 6, Antalya: 4
+
+[136]
+WARNING: Queue overflow - discarding parcel P0149 to Izmir
+WARNING: Queue overflow - discarding parcel P0149 to Izmir
+New Parcels: P0148 to Bursa (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0119
+Rotated to: Izmir
+Dispatched: P0103 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 1, Izmir: 6, Bursa: 7, Antalya: 4
+
+[137]
+New Parcels: P0149 to Izmir (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0120
+Dispatched: P0104 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 1, Izmir: 5, Bursa: 7, Antalya: 5
+
+[138]
+New Parcels: P0150 to Izmir (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0121
+Dispatched: P0105 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 1, Izmir: 4, Bursa: 7, Antalya: 6
+
+[139]
+WARNING: Queue overflow - discarding parcel P0152 to Istanbul
+New Parcels: P0151 to Bursa (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0122
+Dispatched: P0112 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 1, Izmir: 4, Bursa: 7, Antalya: 6
+
+[140]
+New Parcels: P0152 to Bursa (Priority 2)
+Queue Size: 30/30
+Sorted to BST: P0123
+Dispatched: P0114 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 2, Izmir: 3, Bursa: 7, Antalya: 6
+
+[141]
+WARNING: Queue overflow - discarding parcel P0154 to Antalya
+New Parcels: P0153 to Istanbul (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0124
+Rotated to: Bursa
+Dispatched: P0102 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 3, Izmir: 3, Bursa: 6, Antalya: 6
+
+[142]
+WARNING: Queue overflow - discarding parcel P0155 to Istanbul
+New Parcels: P0154 to Antalya (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0125
+Dispatched: P0085 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 4, Izmir: 3, Bursa: 5, Antalya: 6
+
+[143]
+WARNING: Queue overflow - discarding parcel P0156 to Antalya
+WARNING: Queue overflow - discarding parcel P0156 to Bursa
+New Parcels: P0155 to Ankara (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0126
+Dispatched: P0093 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 4, Izmir: 3, Bursa: 5, Antalya: 6
+
+[144]
+WARNING: Queue overflow - discarding parcel P0157 to Antalya
+New Parcels: P0156 to Izmir (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0127
+Dispatched: P0095 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 4, Izmir: 3, Bursa: 5, Antalya: 6
+
+[145]
+WARNING: Queue overflow - discarding parcel P0158 to Istanbul
+New Parcels: P0157 to Ankara (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0128
+Dispatched: P0099 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 4, Izmir: 3, Bursa: 4, Antalya: 6
+
+[146]
+WARNING: Queue overflow - discarding parcel P0159 to Ankara
+New Parcels: P0158 to Istanbul (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0129
+Rotated to: Antalya
+Dispatched: P0109 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 4, Izmir: 3, Bursa: 5, Antalya: 5
+
+[147]
+New Parcels: P0159 to Izmir (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0130
+Dispatched: P0111 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 4, Izmir: 4, Bursa: 5, Antalya: 4
+
+[148]
+WARNING: Queue overflow - discarding parcel P0161 to Antalya
+WARNING: Queue overflow - discarding parcel P0161 to Istanbul
+New Parcels: P0160 to Istanbul (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0131
+Dispatched: P0113 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 4, Izmir: 4, Bursa: 5, Antalya: 4
+
+[149]
+WARNING: Queue overflow - discarding parcel P0162 to Antalya
+WARNING: Queue overflow - discarding parcel P0162 to Istanbul
+New Parcels: P0161 to Bursa (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0132
+Dispatched: P0116 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 4, Izmir: 4, Bursa: 6, Antalya: 3
+
+[150]
+WARNING: Queue overflow - discarding parcel P0163 to Bursa
+New Parcels: P0162 to Antalya (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0133
+Dispatched: P0120 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 4, Izmir: 4, Bursa: 6, Antalya: 2
+
+[151]
+WARNING: Queue overflow - discarding parcel P0164 to Izmir
+New Parcels: P0163 to Istanbul (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0134
+Rotated to: Istanbul
+Returned: P0110 misrouted -> Pushed to ReturnStack
+Active Terminal: Istanbul
+ReturnStack Size: 1
+BST Status: Istanbul: 3, Ankara: 4, Izmir: 4, Bursa: 7, Antalya: 2
+
+[152]
+WARNING: Queue overflow - discarding parcel P0165 to Antalya
+WARNING: Queue overflow - discarding parcel P0165 to Bursa
+New Parcels: P0164 to Bursa (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Reprocessed: P0110 from ReturnStack to BST
+Dispatched: P0115 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 4, Izmir: 4, Bursa: 7, Antalya: 2
+
+[153]
+WARNING: Queue overflow - discarding parcel P0165 to Bursa
+WARNING: Queue overflow - discarding parcel P0165 to Bursa
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0135
+Dispatched: P0128 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 4, Izmir: 5, Bursa: 7, Antalya: 2
+
+[154]
+WARNING: Queue overflow - discarding parcel P0166 to Istanbul
+New Parcels: P0165 to Ankara (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0136
+Dispatched: P0133 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 5, Izmir: 5, Bursa: 7, Antalya: 2
+
+[155]
+WARNING: Queue overflow - discarding parcel P0167 to Bursa
+WARNING: Queue overflow - discarding parcel P0167 to Izmir
+New Parcels: P0166 to Bursa (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0137
+Dispatched: P0110 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 6, Izmir: 5, Bursa: 7, Antalya: 2
+
+[156]
+New Parcels: P0167 to Ankara (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0138
+Rotated to: Ankara
+Dispatched: P0108 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 5, Izmir: 6, Bursa: 7, Antalya: 2
+
+[157]
+WARNING: Queue overflow - discarding parcel P0169 to Bursa
+WARNING: Queue overflow - discarding parcel P0169 to Istanbul
+New Parcels: P0168 to Bursa (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0139
+Dispatched: P0123 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 5, Izmir: 6, Bursa: 7, Antalya: 2
+
+[158]
+WARNING: Queue overflow - discarding parcel P0170 to Istanbul
+WARNING: Queue overflow - discarding parcel P0170 to Istanbul
+New Parcels: P0169 to Istanbul (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0140
+Dispatched: P0124 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 4, Izmir: 6, Bursa: 7, Antalya: 3
+
+[159]
+WARNING: Queue overflow - discarding parcel P0171 to Istanbul
+New Parcels: P0170 to Istanbul (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0141
+Dispatched: P0125 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 3, Izmir: 7, Bursa: 7, Antalya: 3
+
+[160]
+WARNING: Queue overflow - discarding parcel P0172 to Istanbul
+New Parcels: P0171 to Ankara (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0142
+Dispatched: P0136 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 2, Izmir: 8, Bursa: 7, Antalya: 3
+
+[161]
+New Parcels: P0172 to Izmir (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0143
+Rotated to: Izmir
+Dispatched: P0117 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 2, Izmir: 7, Bursa: 8, Antalya: 3
+
+[162]
+New Parcels: P0173 to Istanbul (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0144
+Dispatched: P0118 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 2, Izmir: 7, Bursa: 8, Antalya: 3
+
+[163]
+WARNING: Queue overflow - discarding parcel P0175 to Antalya
+WARNING: Queue overflow - discarding parcel P0175 to Izmir
+New Parcels: P0174 to Ankara (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0145
+Dispatched: P0122 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 2, Izmir: 6, Bursa: 9, Antalya: 3
+
+[164]
+WARNING: Queue overflow - discarding parcel P0176 to Bursa
+New Parcels: P0175 to Izmir (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0146
+Dispatched: P0130 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 3, Izmir: 5, Bursa: 9, Antalya: 3
+
+[165]
+WARNING: Queue overflow - discarding parcel P0177 to Bursa
+New Parcels: P0176 to Istanbul (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0147
+Dispatched: P0135 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 3, Izmir: 4, Bursa: 9, Antalya: 4
+
+[166]
+New Parcels: P0177 to Izmir (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0148
+Rotated to: Bursa
+Dispatched: P0107 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 3, Izmir: 4, Bursa: 9, Antalya: 4
+
+[167]
+New Parcels: P0178 to Ankara (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0149
+Dispatched: P0119 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 3, Izmir: 5, Bursa: 8, Antalya: 4
+
+[168]
+WARNING: Queue overflow - discarding parcel P0180 to Istanbul
+WARNING: Queue overflow - discarding parcel P0180 to Izmir
+New Parcels: P0179 to Antalya (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0150
+Dispatched: P0126 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 3, Izmir: 6, Bursa: 7, Antalya: 4
+
+[169]
+WARNING: Queue overflow - discarding parcel P0181 to Ankara
+WARNING: Queue overflow - discarding parcel P0181 to Bursa
+New Parcels: P0180 to Istanbul (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0151
+Dispatched: P0127 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 3, Izmir: 6, Bursa: 7, Antalya: 4
+
+[170]
+WARNING: Queue overflow - discarding parcel P0182 to Antalya
+WARNING: Queue overflow - discarding parcel P0182 to Izmir
+New Parcels: P0181 to Izmir (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0152
+Dispatched: P0129 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 3, Izmir: 6, Bursa: 7, Antalya: 4
+
+[171]
+WARNING: Queue overflow - discarding parcel P0183 to Istanbul
+WARNING: Queue overflow - discarding parcel P0183 to Ankara
+New Parcels: P0182 to Izmir (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0153
+Rotated to: Antalya
+Dispatched: P0121 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 3, Izmir: 6, Bursa: 7, Antalya: 3
+
+[172]
+WARNING: Queue overflow - discarding parcel P0184 to Bursa
+WARNING: Queue overflow - discarding parcel P0184 to Antalya
+New Parcels: P0183 to Istanbul (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0154
+Dispatched: P0131 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 3, Izmir: 6, Bursa: 7, Antalya: 3
+
+[173]
+WARNING: Queue overflow - discarding parcel P0185 to Antalya
+WARNING: Queue overflow - discarding parcel P0185 to Bursa
+New Parcels: P0184 to Izmir (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0155
+Dispatched: P0140 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 4, Izmir: 6, Bursa: 7, Antalya: 2
+
+[174]
+WARNING: Queue overflow - discarding parcel P0186 to Ankara
+New Parcels: P0185 to Ankara (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0156
+Dispatched: P0147 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 4, Izmir: 7, Bursa: 7, Antalya: 1
+
+[175]
+WARNING: Queue overflow - discarding parcel P0187 to Antalya
+New Parcels: P0186 to Izmir (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0157
+Dispatched: P0154 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 5, Izmir: 7, Bursa: 7, Antalya: 0
+
+[176]
+New Parcels: P0187 to Istanbul (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0158
+Rotated to: Istanbul
+Dispatched: P0153 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 5, Izmir: 7, Bursa: 7, Antalya: 0
+
+[177]
+WARNING: Queue overflow - discarding parcel P0189 to Izmir
+New Parcels: P0188 to Izmir (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0159
+Dispatched: P0158 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 5, Izmir: 8, Bursa: 7, Antalya: 0
+
+[178]
+WARNING: Queue overflow - discarding parcel P0190 to Istanbul
+New Parcels: P0189 to Bursa (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0160
+Dispatched: P0160 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 5, Izmir: 8, Bursa: 7, Antalya: 0
+
+[179]
+WARNING: Queue overflow - discarding parcel P0191 to Antalya
+WARNING: Queue overflow - discarding parcel P0191 to Antalya
+New Parcels: P0190 to Bursa (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0161
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 5, Izmir: 8, Bursa: 8, Antalya: 0
+
+[180]
+WARNING: Queue overflow - discarding parcel P0192 to Ankara
+New Parcels: P0191 to Antalya (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0162
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 0, Ankara: 5, Izmir: 8, Bursa: 8, Antalya: 1
+
+[181]
+WARNING: Queue overflow - discarding parcel P0193 to Bursa
+WARNING: Queue overflow - discarding parcel P0193 to Bursa
+New Parcels: P0192 to Istanbul (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0163
+Rotated to: Ankara
+Dispatched: P0137 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 4, Izmir: 8, Bursa: 8, Antalya: 1
+
+[182]
+WARNING: Queue overflow - discarding parcel P0194 to Istanbul
+WARNING: Queue overflow - discarding parcel P0194 to Antalya
+New Parcels: P0193 to Izmir (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0164
+Returned: P0139 misrouted -> Pushed to ReturnStack
+Active Terminal: Ankara
+ReturnStack Size: 1
+BST Status: Istanbul: 1, Ankara: 3, Izmir: 8, Bursa: 9, Antalya: 1
+
+[183]
+WARNING: Queue overflow - discarding parcel P0195 to Istanbul
+New Parcels: P0194 to Ankara (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Reprocessed: P0139 from ReturnStack to BST
+Dispatched: P0146 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 3, Izmir: 8, Bursa: 9, Antalya: 1
+
+[184]
+WARNING: Queue overflow - discarding parcel P0195 to Antalya
+WARNING: Queue overflow - discarding parcel P0195 to Izmir
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0165
+Dispatched: P0155 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 3, Izmir: 8, Bursa: 9, Antalya: 1
+
+[185]
+New Parcels: P0195 to Izmir (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0166
+Dispatched: P0157 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 2, Izmir: 8, Bursa: 10, Antalya: 1
+
+[186]
+New Parcels: P0196 to Istanbul (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0167
+Rotated to: Izmir
+Dispatched: P0138 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 3, Izmir: 7, Bursa: 10, Antalya: 1
+
+[187]
+New Parcels: P0197 to Izmir (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0168
+Dispatched: P0141 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 3, Izmir: 6, Bursa: 11, Antalya: 1
+
+[188]
+WARNING: Queue overflow - discarding parcel P0199 to Istanbul
+WARNING: Queue overflow - discarding parcel P0199 to Istanbul
+New Parcels: P0198 to Ankara (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0169
+Returned: P0142 misrouted -> Pushed to ReturnStack
+Active Terminal: Izmir
+ReturnStack Size: 1
+BST Status: Istanbul: 2, Ankara: 3, Izmir: 5, Bursa: 11, Antalya: 1
+
+[189]
+New Parcels: P0199 to Ankara (Priority 3)
+Queue Size: 30/30
+Reprocessed: P0142 from ReturnStack to BST
+Returned: P0144 misrouted -> Pushed to ReturnStack
+Active Terminal: Izmir
+ReturnStack Size: 1
+BST Status: Istanbul: 2, Ankara: 3, Izmir: 5, Bursa: 11, Antalya: 1
+
+[190]
+WARNING: Queue overflow - discarding parcel P0200 to Izmir
+WARNING: Queue overflow - discarding parcel P0200 to Antalya
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Reprocessed: P0144 from ReturnStack to BST
+Dispatched: P0149 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 3, Izmir: 5, Bursa: 11, Antalya: 1
+
+[191]
+WARNING: Queue overflow - discarding parcel P0200 to Ankara
+WARNING: Queue overflow - discarding parcel P0200 to Ankara
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0170
+Rotated to: Bursa
+Dispatched: P0132 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 3, Izmir: 5, Bursa: 10, Antalya: 1
+
+[192]
+WARNING: Queue overflow - discarding parcel P0201 to Izmir
+New Parcels: P0200 to Izmir (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0171
+Dispatched: P0134 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 4, Izmir: 5, Bursa: 9, Antalya: 1
+
+[193]
+WARNING: Queue overflow - discarding parcel P0202 to Istanbul
+New Parcels: P0201 to Antalya (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0172
+Dispatched: P0143 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 4, Izmir: 6, Bursa: 8, Antalya: 1
+
+[194]
+WARNING: Queue overflow - discarding parcel P0203 to Ankara
+New Parcels: P0202 to Antalya (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0173
+Dispatched: P0145 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 4, Izmir: 6, Bursa: 7, Antalya: 1
+
+[195]
+WARNING: Queue overflow - discarding parcel P0204 to Ankara
+New Parcels: P0203 to Antalya (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0174
+Dispatched: P0148 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 5, Izmir: 6, Bursa: 6, Antalya: 1
+
+[196]
+WARNING: Queue overflow - discarding parcel P0205 to Bursa
+New Parcels: P0204 to Izmir (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0175
+Rotated to: Antalya
+Dispatched: P0162 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 5, Izmir: 7, Bursa: 6, Antalya: 0
+
+[197]
+WARNING: Queue overflow - discarding parcel P0206 to Istanbul
+New Parcels: P0205 to Izmir (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0176
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 7, Bursa: 6, Antalya: 0
+
+[198]
+WARNING: Queue overflow - discarding parcel P0207 to Ankara
+New Parcels: P0206 to Antalya (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0177
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 8, Bursa: 6, Antalya: 0
+
+[199]
+WARNING: Queue overflow - discarding parcel P0208 to Antalya
+WARNING: Queue overflow - discarding parcel P0208 to Antalya
+New Parcels: P0207 to Ankara (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0178
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 6, Izmir: 8, Bursa: 6, Antalya: 0
+
+[200]
+WARNING: Queue overflow - discarding parcel P0209 to Izmir
+WARNING: Queue overflow - discarding parcel P0209 to Bursa
+New Parcels: P0208 to Antalya (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0179
+Dispatched: P0179 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 6, Izmir: 8, Bursa: 6, Antalya: 0
+
+[201]
+WARNING: Queue overflow - discarding parcel P0210 to Ankara
+WARNING: Queue overflow - discarding parcel P0210 to Istanbul
+New Parcels: P0209 to Istanbul (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0180
+Rotated to: Istanbul
+Dispatched: P0163 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 6, Izmir: 8, Bursa: 6, Antalya: 0
+
+[202]
+New Parcels: P0210 to Ankara (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0181
+Dispatched: P0169 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 6, Izmir: 9, Bursa: 6, Antalya: 0
+
+[203]
+WARNING: Queue overflow - discarding parcel P0212 to Bursa
+New Parcels: P0211 to Ankara (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0182
+Dispatched: P0170 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 6, Izmir: 10, Bursa: 6, Antalya: 0
+
+[204]
+New Parcels: P0212 to Bursa (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0183
+Dispatched: P0173 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 6, Izmir: 10, Bursa: 6, Antalya: 0
+
+[205]
+WARNING: Queue overflow - discarding parcel P0214 to Istanbul
+New Parcels: P0213 to Bursa (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0184
+Dispatched: P0176 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 6, Izmir: 11, Bursa: 6, Antalya: 0
+
+[206]
+WARNING: Queue overflow - discarding parcel P0215 to Bursa
+WARNING: Queue overflow - discarding parcel P0215 to Ankara
+New Parcels: P0214 to Istanbul (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0185
+Rotated to: Ankara
+Dispatched: P0139 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 6, Izmir: 11, Bursa: 6, Antalya: 0
+
+[207]
+WARNING: Queue overflow - discarding parcel P0216 to Istanbul
+New Parcels: P0215 to Bursa (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0186
+Dispatched: P0165 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 5, Izmir: 12, Bursa: 6, Antalya: 0
+
+[208]
+WARNING: Queue overflow - discarding parcel P0217 to Bursa
+New Parcels: P0216 to Antalya (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0187
+Dispatched: P0167 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 4, Izmir: 12, Bursa: 6, Antalya: 0
+
+[209]
+WARNING: Queue overflow - discarding parcel P0218 to Bursa
+WARNING: Queue overflow - discarding parcel P0218 to Bursa
+New Parcels: P0217 to Istanbul (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0188
+Dispatched: P0171 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 3, Izmir: 13, Bursa: 6, Antalya: 0
+
+[210]
+WARNING: Queue overflow - discarding parcel P0219 to Istanbul
+New Parcels: P0218 to Bursa (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0189
+Returned: P0174 misrouted -> Pushed to ReturnStack
+Active Terminal: Ankara
+ReturnStack Size: 1
+BST Status: Istanbul: 3, Ankara: 2, Izmir: 13, Bursa: 7, Antalya: 0
+
+[211]
+New Parcels: P0219 to Ankara (Priority 3)
+Queue Size: 30/30
+Reprocessed: P0174 from ReturnStack to BST
+Rotated to: Izmir
+Dispatched: P0150 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 3, Izmir: 12, Bursa: 7, Antalya: 0
+
+[212]
+WARNING: Queue overflow - discarding parcel P0220 to Ankara
+WARNING: Queue overflow - discarding parcel P0220 to Ankara
+WARNING: Queue overflow - discarding parcel P0220 to Antalya
+Parcels discarded due to queue overflow: 3
+Queue Size: 30/30
+Sorted to BST: P0190
+Returned: P0156 misrouted -> Pushed to ReturnStack
+Active Terminal: Izmir
+ReturnStack Size: 1
+BST Status: Istanbul: 3, Ankara: 3, Izmir: 11, Bursa: 8, Antalya: 0
+
+[213]
+WARNING: Queue overflow - discarding parcel P0221 to Antalya
+WARNING: Queue overflow - discarding parcel P0221 to Istanbul
+New Parcels: P0220 to Antalya (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Reprocessed: P0156 from ReturnStack to BST
+Dispatched: P0159 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 3, Izmir: 11, Bursa: 8, Antalya: 0
+
+[214]
+WARNING: Queue overflow - discarding parcel P0221 to Izmir
+WARNING: Queue overflow - discarding parcel P0221 to Antalya
+WARNING: Queue overflow - discarding parcel P0221 to Antalya
+Parcels discarded due to queue overflow: 3
+Queue Size: 30/30
+Sorted to BST: P0191
+Dispatched: P0142 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 3, Izmir: 10, Bursa: 8, Antalya: 1
+
+[215]
+New Parcels: P0221 to Ankara (Priority 2)
+Queue Size: 30/30
+Sorted to BST: P0192
+Dispatched: P0144 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 3, Izmir: 9, Bursa: 8, Antalya: 1
+
+[216]
+WARNING: Queue overflow - discarding parcel P0223 to Ankara
+New Parcels: P0222 to Istanbul (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0193
+Rotated to: Bursa
+Dispatched: P0151 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 3, Izmir: 10, Bursa: 7, Antalya: 1
+
+[217]
+WARNING: Queue overflow - discarding parcel P0224 to Istanbul
+WARNING: Queue overflow - discarding parcel P0224 to Ankara
+New Parcels: P0223 to Izmir (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0194
+Dispatched: P0152 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 4, Izmir: 10, Bursa: 6, Antalya: 1
+
+[218]
+WARNING: Queue overflow - discarding parcel P0225 to Bursa
+New Parcels: P0224 to Istanbul (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0195
+Dispatched: P0161 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 4, Izmir: 11, Bursa: 5, Antalya: 1
+
+[219]
+WARNING: Queue overflow - discarding parcel P0226 to Izmir
+WARNING: Queue overflow - discarding parcel P0226 to Izmir
+New Parcels: P0225 to Izmir (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0196
+Dispatched: P0164 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 4, Izmir: 11, Bursa: 4, Antalya: 1
+
+[220]
+New Parcels: P0226 to Antalya (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0197
+Dispatched: P0166 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 4, Izmir: 12, Bursa: 3, Antalya: 1
+
+[221]
+WARNING: Queue overflow - discarding parcel P0228 to Istanbul
+New Parcels: P0227 to Antalya (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0198
+Rotated to: Antalya
+Dispatched: P0191 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 12, Bursa: 3, Antalya: 0
+
+[222]
+WARNING: Queue overflow - discarding parcel P0229 to Izmir
+New Parcels: P0228 to Antalya (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0199
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 6, Izmir: 12, Bursa: 3, Antalya: 0
+
+[223]
+WARNING: Queue overflow - discarding parcel P0230 to Bursa
+WARNING: Queue overflow - discarding parcel P0230 to Antalya
+New Parcels: P0229 to Izmir (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0200
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 6, Izmir: 13, Bursa: 3, Antalya: 0
+
+[224]
+WARNING: Queue overflow - discarding parcel P0231 to Istanbul
+New Parcels: P0230 to Izmir (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0201
+Dispatched: P0201 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 6, Izmir: 13, Bursa: 3, Antalya: 0
+
+[225]
+WARNING: Queue overflow - discarding parcel P0232 to Antalya
+New Parcels: P0231 to Bursa (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0202
+Dispatched: P0202 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 6, Izmir: 13, Bursa: 3, Antalya: 0
+
+[226]
+WARNING: Queue overflow - discarding parcel P0233 to Izmir
+WARNING: Queue overflow - discarding parcel P0233 to Bursa
+New Parcels: P0232 to Bursa (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0203
+Rotated to: Istanbul
+Dispatched: P0180 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 6, Izmir: 13, Bursa: 3, Antalya: 1
+
+[227]
+WARNING: Queue overflow - discarding parcel P0234 to Izmir
+WARNING: Queue overflow - discarding parcel P0234 to Antalya
+New Parcels: P0233 to Ankara (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0204
+Dispatched: P0183 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 6, Izmir: 14, Bursa: 3, Antalya: 1
+
+[228]
+New Parcels: P0234 to Istanbul (Priority 2)
+Queue Size: 30/30
+Sorted to BST: P0205
+Dispatched: P0187 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 6, Izmir: 15, Bursa: 3, Antalya: 1
+
+[229]
+WARNING: Queue overflow - discarding parcel P0236 to Bursa
+New Parcels: P0235 to Izmir (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0206
+Dispatched: P0192 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 6, Izmir: 15, Bursa: 3, Antalya: 2
+
+[230]
+WARNING: Queue overflow - discarding parcel P0237 to Ankara
+WARNING: Queue overflow - discarding parcel P0237 to Bursa
+New Parcels: P0236 to Antalya (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0207
+Returned: P0196 misrouted -> Pushed to ReturnStack
+Active Terminal: Istanbul
+ReturnStack Size: 1
+BST Status: Istanbul: 0, Ankara: 7, Izmir: 15, Bursa: 3, Antalya: 2
+
+[231]
+WARNING: Queue overflow - discarding parcel P0238 to Bursa
+New Parcels: P0237 to Izmir (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Reprocessed: P0196 from ReturnStack to BST
+Rotated to: Ankara
+Dispatched: P0178 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 6, Izmir: 15, Bursa: 3, Antalya: 2
+
+[232]
+WARNING: Queue overflow - discarding parcel P0238 to Antalya
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0208
+Dispatched: P0185 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 1, Ankara: 5, Izmir: 15, Bursa: 3, Antalya: 3
+
+[233]
+WARNING: Queue overflow - discarding parcel P0239 to Antalya
+WARNING: Queue overflow - discarding parcel P0239 to Izmir
+New Parcels: P0238 to Ankara (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0209
+Dispatched: P0174 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 4, Izmir: 15, Bursa: 3, Antalya: 3
+
+[234]
+New Parcels: P0239 to Istanbul (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0210
+Dispatched: P0194 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 4, Izmir: 15, Bursa: 3, Antalya: 3
+
+[235]
+WARNING: Queue overflow - discarding parcel P0241 to Istanbul
+WARNING: Queue overflow - discarding parcel P0241 to Izmir
+New Parcels: P0240 to Ankara (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0211
+Returned: P0198 misrouted -> Pushed to ReturnStack
+Active Terminal: Ankara
+ReturnStack Size: 1
+BST Status: Istanbul: 2, Ankara: 4, Izmir: 15, Bursa: 3, Antalya: 3
+
+[236]
+WARNING: Queue overflow - discarding parcel P0242 to Izmir
+WARNING: Queue overflow - discarding parcel P0242 to Antalya
+New Parcels: P0241 to Istanbul (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Reprocessed: P0198 from ReturnStack to BST
+Rotated to: Izmir
+Dispatched: P0172 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 5, Izmir: 14, Bursa: 3, Antalya: 3
+
+[237]
+WARNING: Queue overflow - discarding parcel P0242 to Bursa
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0212
+Returned: P0175 misrouted -> Pushed to ReturnStack
+Active Terminal: Izmir
+ReturnStack Size: 1
+BST Status: Istanbul: 2, Ankara: 5, Izmir: 13, Bursa: 4, Antalya: 3
+
+[238]
+WARNING: Queue overflow - discarding parcel P0243 to Antalya
+New Parcels: P0242 to Bursa (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Reprocessed: P0175 from ReturnStack to BST
+Dispatched: P0177 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 5, Izmir: 13, Bursa: 4, Antalya: 3
+
+[239]
+WARNING: Queue overflow - discarding parcel P0243 to Istanbul
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0213
+Dispatched: P0181 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 5, Izmir: 12, Bursa: 5, Antalya: 3
+
+[240]
+WARNING: Queue overflow - discarding parcel P0244 to Bursa
+New Parcels: P0243 to Istanbul (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0214
+Dispatched: P0182 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 5, Izmir: 11, Bursa: 5, Antalya: 3
+
+[241]
+New Parcels: P0244 to Istanbul (Priority 2)
+Queue Size: 30/30
+Sorted to BST: P0215
+Rotated to: Bursa
+Dispatched: P0168 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 5, Izmir: 11, Bursa: 5, Antalya: 3
+
+[242]
+New Parcels: P0245 to Istanbul (Priority 2)
+Queue Size: 30/30
+Sorted to BST: P0216
+Dispatched: P0189 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 5, Izmir: 11, Bursa: 4, Antalya: 4
+
+[243]
+WARNING: Queue overflow - discarding parcel P0247 to Istanbul
+WARNING: Queue overflow - discarding parcel P0247 to Istanbul
+New Parcels: P0246 to Ankara (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0217
+Dispatched: P0190 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 5, Izmir: 11, Bursa: 3, Antalya: 4
+
+[244]
+WARNING: Queue overflow - discarding parcel P0248 to Bursa
+WARNING: Queue overflow - discarding parcel P0248 to Izmir
+New Parcels: P0247 to Ankara (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0218
+Dispatched: P0212 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 5, Izmir: 11, Bursa: 3, Antalya: 4
+
+[245]
+WARNING: Queue overflow - discarding parcel P0249 to Izmir
+New Parcels: P0248 to Ankara (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0219
+Dispatched: P0213 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 6, Izmir: 11, Bursa: 2, Antalya: 4
+
+[246]
+New Parcels: P0249 to Bursa (Priority 2)
+Queue Size: 30/30
+Sorted to BST: P0220
+Rotated to: Antalya
+Dispatched: P0203 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 6, Izmir: 11, Bursa: 2, Antalya: 4
+
+[247]
+New Parcels: P0250 to Antalya (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0221
+Returned: P0206 misrouted -> Pushed to ReturnStack
+Active Terminal: Antalya
+ReturnStack Size: 1
+BST Status: Istanbul: 4, Ankara: 7, Izmir: 11, Bursa: 2, Antalya: 3
+
+[248]
+WARNING: Queue overflow - discarding parcel P0252 to Antalya
+WARNING: Queue overflow - discarding parcel P0252 to Bursa
+New Parcels: P0251 to Antalya (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Reprocessed: P0206 from ReturnStack to BST
+Dispatched: P0208 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 7, Izmir: 11, Bursa: 2, Antalya: 3
+
+[249]
+WARNING: Queue overflow - discarding parcel P0252 to Izmir
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0222
+Dispatched: P0216 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 7, Izmir: 11, Bursa: 2, Antalya: 2
+
+[250]
+WARNING: Queue overflow - discarding parcel P0253 to Ankara
+WARNING: Queue overflow - discarding parcel P0253 to Ankara
+New Parcels: P0252 to Istanbul (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0223
+Dispatched: P0220 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 7, Izmir: 12, Bursa: 2, Antalya: 1
+
+[251]
+WARNING: Queue overflow - discarding parcel P0254 to Antalya
+New Parcels: P0253 to Bursa (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0224
+Rotated to: Istanbul
+Dispatched: P0196 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 7, Izmir: 12, Bursa: 2, Antalya: 1
+
+[252]
+WARNING: Queue overflow - discarding parcel P0255 to Istanbul
+New Parcels: P0254 to Bursa (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0225
+Dispatched: P0209 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 7, Izmir: 13, Bursa: 2, Antalya: 1
+
+[253]
+WARNING: Queue overflow - discarding parcel P0256 to Antalya
+New Parcels: P0255 to Istanbul (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0226
+Dispatched: P0214 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 7, Izmir: 13, Bursa: 2, Antalya: 2
+
+[254]
+New Parcels: P0256 to Izmir (Priority 2)
+Queue Size: 30/30
+Sorted to BST: P0227
+Dispatched: P0217 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 7, Izmir: 13, Bursa: 2, Antalya: 3
+
+[255]
+WARNING: Queue overflow - discarding parcel P0258 to Ankara
+WARNING: Queue overflow - discarding parcel P0258 to Antalya
+New Parcels: P0257 to Antalya (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0228
+Returned: P0222 misrouted -> Pushed to ReturnStack
+Active Terminal: Istanbul
+ReturnStack Size: 1
+BST Status: Istanbul: 1, Ankara: 7, Izmir: 13, Bursa: 2, Antalya: 4
+
+[256]
+WARNING: Queue overflow - discarding parcel P0259 to Istanbul
+New Parcels: P0258 to Ankara (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Reprocessed: P0222 from ReturnStack to BST
+Rotated to: Ankara
+Dispatched: P0199 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 6, Izmir: 13, Bursa: 2, Antalya: 4
+
+[257]
+WARNING: Queue overflow - discarding parcel P0259 to Istanbul
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0229
+Dispatched: P0207 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 5, Izmir: 14, Bursa: 2, Antalya: 4
+
+[258]
+WARNING: Queue overflow - discarding parcel P0260 to Antalya
+WARNING: Queue overflow - discarding parcel P0260 to Bursa
+New Parcels: P0259 to Ankara (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0230
+Dispatched: P0210 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 4, Izmir: 15, Bursa: 2, Antalya: 4
+
+[259]
+WARNING: Queue overflow - discarding parcel P0261 to Istanbul
+WARNING: Queue overflow - discarding parcel P0261 to Izmir
+New Parcels: P0260 to Izmir (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0231
+Dispatched: P0211 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 3, Izmir: 15, Bursa: 3, Antalya: 4
+
+[260]
+New Parcels: P0261 to Izmir (Priority 2)
+Queue Size: 30/30
+Sorted to BST: P0232
+Dispatched: P0198 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 2, Izmir: 15, Bursa: 4, Antalya: 4
+
+[261]
+WARNING: Queue overflow - discarding parcel P0263 to Ankara
+WARNING: Queue overflow - discarding parcel P0263 to Istanbul
+New Parcels: P0262 to Bursa (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0233
+Rotated to: Izmir
+Dispatched: P0184 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 2, Ankara: 3, Izmir: 14, Bursa: 4, Antalya: 4
+
+[262]
+New Parcels: P0263 to Izmir (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0234
+Dispatched: P0186 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 3, Izmir: 13, Bursa: 4, Antalya: 4
+
+[263]
+WARNING: Queue overflow - discarding parcel P0265 to Izmir
+WARNING: Queue overflow - discarding parcel P0265 to Istanbul
+New Parcels: P0264 to Ankara (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0235
+Dispatched: P0188 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 3, Izmir: 13, Bursa: 4, Antalya: 4
+
+[264]
+New Parcels: P0265 to Bursa (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0236
+Dispatched: P0156 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 3, Izmir: 12, Bursa: 4, Antalya: 5
+
+[265]
+WARNING: Queue overflow - discarding parcel P0267 to Izmir
+New Parcels: P0266 to Bursa (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0237
+Dispatched: P0193 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 3, Izmir: 12, Bursa: 4, Antalya: 5
+
+[266]
+New Parcels: P0267 to Antalya (Priority 3)
+Queue Size: 30/30
+Sorted to BST: P0238
+Rotated to: Bursa
+Returned: P0215 misrouted -> Pushed to ReturnStack
+Active Terminal: Bursa
+ReturnStack Size: 1
+BST Status: Istanbul: 3, Ankara: 4, Izmir: 12, Bursa: 3, Antalya: 5
+
+[267]
+New Parcels: P0268 to Bursa (Priority 2)
+Queue Size: 30/30
+Reprocessed: P0215 from ReturnStack to BST
+Dispatched: P0218 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 4, Izmir: 12, Bursa: 3, Antalya: 5
+
+[268]
+WARNING: Queue overflow - discarding parcel P0269 to Bursa
+WARNING: Queue overflow - discarding parcel P0269 to Izmir
+WARNING: Queue overflow - discarding parcel P0269 to Antalya
+Parcels discarded due to queue overflow: 3
+Queue Size: 30/30
+Sorted to BST: P0239
+Dispatched: P0231 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 4, Izmir: 12, Bursa: 2, Antalya: 5
+
+[269]
+WARNING: Queue overflow - discarding parcel P0270 to Izmir
+WARNING: Queue overflow - discarding parcel P0270 to Izmir
+New Parcels: P0269 to Bursa (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0240
+Dispatched: P0232 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 5, Izmir: 12, Bursa: 1, Antalya: 5
+
+[270]
+New Parcels: P0270 to Bursa (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0241
+Dispatched: P0215 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 12, Bursa: 0, Antalya: 5
+
+[271]
+WARNING: Queue overflow - discarding parcel P0272 to Izmir
+WARNING: Queue overflow - discarding parcel P0272 to Antalya
+New Parcels: P0271 to Ankara (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0242
+Rotated to: Antalya
+Returned: P0206 misrouted -> Pushed to ReturnStack
+Active Terminal: Antalya
+ReturnStack Size: 1
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 12, Bursa: 1, Antalya: 4
+
+[272]
+WARNING: Queue overflow - discarding parcel P0273 to Istanbul
+New Parcels: P0272 to Istanbul (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Reprocessed: P0206 from ReturnStack to BST
+Dispatched: P0226 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 12, Bursa: 1, Antalya: 4
+
+[273]
+WARNING: Queue overflow - discarding parcel P0273 to Ankara
+WARNING: Queue overflow - discarding parcel P0273 to Istanbul
+WARNING: Queue overflow - discarding parcel P0273 to Ankara
+Parcels discarded due to queue overflow: 3
+Queue Size: 30/30
+Sorted to BST: P0243
+Dispatched: P0227 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 6, Ankara: 5, Izmir: 12, Bursa: 1, Antalya: 3
+
+[274]
+WARNING: Queue overflow - discarding parcel P0274 to Izmir
+WARNING: Queue overflow - discarding parcel P0274 to Istanbul
+New Parcels: P0273 to Bursa (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0244
+Dispatched: P0228 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 7, Ankara: 5, Izmir: 12, Bursa: 1, Antalya: 2
+
+[275]
+WARNING: Queue overflow - discarding parcel P0275 to Izmir
+WARNING: Queue overflow - discarding parcel P0275 to Izmir
+New Parcels: P0274 to Ankara (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0245
+Dispatched: P0236 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 8, Ankara: 5, Izmir: 12, Bursa: 1, Antalya: 1
+
+[276]
+WARNING: Queue overflow - discarding parcel P0276 to Izmir
+WARNING: Queue overflow - discarding parcel P0276 to Izmir
+New Parcels: P0275 to Bursa (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0246
+Rotated to: Istanbul
+Dispatched: P0224 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 7, Ankara: 6, Izmir: 12, Bursa: 1, Antalya: 1
+
+[277]
+WARNING: Queue overflow - discarding parcel P0277 to Istanbul
+WARNING: Queue overflow - discarding parcel P0277 to Istanbul
+New Parcels: P0276 to Bursa (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0247
+Dispatched: P0222 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 6, Ankara: 7, Izmir: 12, Bursa: 1, Antalya: 1
+
+[278]
+WARNING: Queue overflow - discarding parcel P0278 to Izmir
+WARNING: Queue overflow - discarding parcel P0278 to Istanbul
+New Parcels: P0277 to Antalya (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0248
+Dispatched: P0234 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 8, Izmir: 12, Bursa: 1, Antalya: 1
+
+[279]
+WARNING: Queue overflow - discarding parcel P0279 to Bursa
+New Parcels: P0278 to Antalya (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0249
+Dispatched: P0239 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 8, Izmir: 12, Bursa: 2, Antalya: 1
+
+[280]
+WARNING: Queue overflow - discarding parcel P0280 to Istanbul
+New Parcels: P0279 to Ankara (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0250
+Dispatched: P0241 from BST to Istanbul -> Success
+Active Terminal: Istanbul
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 8, Izmir: 12, Bursa: 2, Antalya: 2
+
+[281]
+WARNING: Queue overflow - discarding parcel P0281 to Bursa
+New Parcels: P0280 to Izmir (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0251
+Rotated to: Ankara
+Dispatched: P0219 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 3, Ankara: 7, Izmir: 12, Bursa: 2, Antalya: 3
+
+[282]
+WARNING: Queue overflow - discarding parcel P0282 to Bursa
+WARNING: Queue overflow - discarding parcel P0282 to Bursa
+New Parcels: P0281 to Bursa (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0252
+Dispatched: P0221 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 6, Izmir: 12, Bursa: 2, Antalya: 3
+
+[283]
+WARNING: Queue overflow - discarding parcel P0283 to Izmir
+WARNING: Queue overflow - discarding parcel P0283 to Izmir
+New Parcels: P0282 to Antalya (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0253
+Dispatched: P0233 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 5, Izmir: 12, Bursa: 3, Antalya: 3
+
+[284]
+WARNING: Queue overflow - discarding parcel P0284 to Bursa
+New Parcels: P0283 to Ankara (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0254
+Dispatched: P0238 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 4, Ankara: 4, Izmir: 12, Bursa: 4, Antalya: 3
+
+[285]
+New Parcels: P0284 to Izmir (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0255
+Dispatched: P0240 from BST to Ankara -> Success
+Active Terminal: Ankara
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 3, Izmir: 12, Bursa: 4, Antalya: 3
+
+[286]
+WARNING: Queue overflow - discarding parcel P0286 to Ankara
+New Parcels: P0285 to Ankara (Priority 1)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0256
+Rotated to: Izmir
+Dispatched: P0195 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 3, Izmir: 12, Bursa: 4, Antalya: 3
+
+[287]
+New Parcels: P0286 to Ankara (Priority 2)
+Queue Size: 30/30
+Sorted to BST: P0257
+Returned: P0197 misrouted -> Pushed to ReturnStack
+Active Terminal: Izmir
+ReturnStack Size: 1
+BST Status: Istanbul: 5, Ankara: 3, Izmir: 11, Bursa: 4, Antalya: 4
+
+[288]
+New Parcels: P0287 to Istanbul (Priority 3)
+Queue Size: 30/30
+Reprocessed: P0197 from ReturnStack to BST
+Dispatched: P0200 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 3, Izmir: 11, Bursa: 4, Antalya: 4
+
+[289]
+WARNING: Queue overflow - discarding parcel P0288 to Antalya
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0258
+Dispatched: P0204 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 4, Izmir: 10, Bursa: 4, Antalya: 4
+
+[290]
+WARNING: Queue overflow - discarding parcel P0289 to Antalya
+WARNING: Queue overflow - discarding parcel P0289 to Antalya
+New Parcels: P0288 to Istanbul (Priority 1)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0259
+Dispatched: P0205 from BST to Izmir -> Success
+Active Terminal: Izmir
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 9, Bursa: 4, Antalya: 4
+
+[291]
+WARNING: Queue overflow - discarding parcel P0290 to Istanbul
+WARNING: Queue overflow - discarding parcel P0290 to Bursa
+New Parcels: P0289 to Bursa (Priority 3)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0260
+Rotated to: Bursa
+Dispatched: P0242 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 10, Bursa: 3, Antalya: 4
+
+[292]
+New Parcels: P0290 to Bursa (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0261
+Dispatched: P0249 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 11, Bursa: 2, Antalya: 4
+
+[293]
+WARNING: Queue overflow - discarding parcel P0292 to Bursa
+New Parcels: P0291 to Istanbul (Priority 2)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0262
+Returned: P0253 misrouted -> Pushed to ReturnStack
+Active Terminal: Bursa
+ReturnStack Size: 1
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 11, Bursa: 2, Antalya: 4
+
+[294]
+New Parcels: P0292 to Bursa (Priority 2)
+Queue Size: 30/30
+Reprocessed: P0253 from ReturnStack to BST
+Dispatched: P0254 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 11, Bursa: 2, Antalya: 4
+
+[295]
+WARNING: Queue overflow - discarding parcel P0293 to Ankara
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Sorted to BST: P0263
+Dispatched: P0262 from BST to Bursa -> Success
+Active Terminal: Bursa
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 5, Izmir: 12, Bursa: 1, Antalya: 4
+
+[296]
+New Parcels: P0293 to Antalya (Priority 1)
+Queue Size: 30/30
+Sorted to BST: P0264
+Rotated to: Antalya
+Returned: P0206 misrouted -> Pushed to ReturnStack
+Active Terminal: Antalya
+ReturnStack Size: 1
+BST Status: Istanbul: 5, Ankara: 6, Izmir: 12, Bursa: 1, Antalya: 3
+
+[297]
+New Parcels: P0294 to Izmir (Priority 2)
+Queue Size: 30/30
+Reprocessed: P0206 from ReturnStack to BST
+Dispatched: P0250 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 6, Izmir: 12, Bursa: 1, Antalya: 3
+
+[298]
+WARNING: Queue overflow - discarding parcel P0295 to Izmir
+WARNING: Queue overflow - discarding parcel P0295 to Antalya
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0265
+Dispatched: P0251 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 6, Izmir: 12, Bursa: 2, Antalya: 2
+
+[299]
+WARNING: Queue overflow - discarding parcel P0296 to Antalya
+WARNING: Queue overflow - discarding parcel P0296 to Izmir
+New Parcels: P0295 to Izmir (Priority 2)
+Parcels discarded due to queue overflow: 2
+Queue Size: 30/30
+Sorted to BST: P0266
+Returned: P0257 misrouted -> Pushed to ReturnStack
+Active Terminal: Antalya
+ReturnStack Size: 1
+BST Status: Istanbul: 5, Ankara: 6, Izmir: 12, Bursa: 3, Antalya: 1
+
+[300]
+WARNING: Queue overflow - discarding parcel P0297 to Istanbul
+New Parcels: P0296 to Ankara (Priority 3)
+Parcels discarded due to queue overflow: 1
+Queue Size: 30/30
+Reprocessed: P0257 from ReturnStack to BST
+Dispatched: P0206 from BST to Antalya -> Success
+Active Terminal: Antalya
+ReturnStack Size: 0
+BST Status: Istanbul: 5, Ankara: 6, Izmir: 12, Bursa: 3, Antalya: 1
+

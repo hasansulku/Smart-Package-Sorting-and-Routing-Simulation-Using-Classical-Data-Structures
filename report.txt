@@ -1,0 +1,34 @@
+ParcelSortX Simulation Report
+Generated: Sat Jun 14 11:58:47 TRT 2025
+==========================================
+1. Simulation Overview
+   • Total Ticks Executed: 300
+   • Number of Parcels Generated: 296
+
+2. Parcel Statistics
+   • Total Dispatched Parcels: 239
+   • Total Returned Parcels: 34
+   • Total Parcels Discarded (Queue Overflow): 307
+   • Parcels in Queue at End: 30
+   • Parcels in BST at End: 27
+   • Parcels in ReturnStack at End: 0
+
+3. Destination Metrics
+   • Istanbul: 5 parcels
+   • Ankara: 6 parcels
+   • Izmir: 12 parcels
+   • Bursa: 3 parcels
+   • Antalya: 1 parcels
+   • Most Frequently Targeted Destination: Izmir
+
+4. Timing and Delay Metrics
+   • Average Processing Time: 1.2594142259414225 ticks
+   • Parcel With Longest Delay: P0156 (delay: 120 ticks)
+   • Parcels Returned More Than Once: 11
+
+5. Data Structure Statistics
+   • Maximum Queue Size Observed: 30
+   • Maximum Stack Size Observed: 1
+   • Final Height of BST: 4
+   • Hash Table Load Factor: 2,96
+   • Number of Cities in BST: 5
