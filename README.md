@@ -129,14 +129,3 @@ ReturnStack Size: 1
 BST Status: Istanbul: 5, Ankara: 2, Izmir: 3, Bursa: 1, Antalya: 0
 ```
 
-## Grading Criteria Met
-- ✅ Correct data structure implementation (30 points)
-- ✅ Simulation flow and logic accuracy (20 points)
-- ✅ Logging and reporting quality (20 points)
-- ✅ Code readability and modularity (15 points)
-- ✅ Creativity and bonus features (10 points)
-- ✅ Documentation/report clarity (5 points)
-
-## Author
-CENG 202 - Data Structures Project
-Kâtip Çelebi University 
